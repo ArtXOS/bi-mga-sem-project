@@ -1,0 +1,7 @@
+== Repo sections
+** Bitmap
+xref:dokumentace1.adoc#[]
+** Vector
+xref:dokumentace2.adoc#[]
+** 3D
+xref:dokumentace3.adoc#[]

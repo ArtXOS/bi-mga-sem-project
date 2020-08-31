@@ -1,0 +1,117 @@
+=== 3D
+
+:imagesdir: ./postup/
+
+`Práce z úprav a retuše obrázku jsem vykonával ve **Blenderu**`
+
+Modelování jsem začal z vyhledávání na webu vhodných referenčních obrázků, které bych pak použil pro modelování z různých pohledů. Našel jsem 2 (pohled zepředu a z boku).
+
+image::1.png[1920,1080]
+
+Vytvořil jsem plošinu, kterou jsem pak vhodným způsobem dělil na obdélníky tak, aby ony odpovídaly určitým částem předu tramvaje. Pak jsem vytáhl jednotlivé vrcholy na potřeba místa a zapnul modifikátor "Subdivision surface".
+
+image::2.png[1920,1080]
+
+Otvory pro žárovky jsem udělal z low poly válců, které pak sloužili během využití modifikátoru "Boolean". Výslednou mesh jsem upravil. Pak jsem použil Extrude do vnitřka a Merge pro vrcholy "centru" otvorů pro žárovky.
+
+image::3.png[1920,1080]
+image::4.png[1920,1080]
+image::5.png[1920,1080]
+image::6.png[1920,1080]
+image::7.png[1920,1080]
+
+Extrudoval jsem "kraje" meshe dozadu, abych pak dodělal zbytek vozu. Vybral jsem místa pro dveře o okna a udělal Extrude ploch. Aby model vypadal správně po "Subdivision surface", musel jsem přidávat extra hrany do meshe.
+
+image::8.png[1920,1080]
+image::9.png[1920,1080]
+
+Zkopíroval jsem krajní vrcholy vozu v zadní části a udělal "Separate by Selection", čímž jsem vytvořil nový objekt pro nový vůz. Pomocí Extrude jsem udělal "kostru" pro další úpravy, jakož to přidávání oken nebo dveří.
+
+image::10.png[1920,1080]
+image::11.png[1920,1080]
+
+Stejným postupem jsem pak vytvořil další vozy podle referenčního obrázku.
+
+image::12.png[1920,1080]
+image::13.png[1920,1080]
+
+Pak už sledovalo přidání tloušťky. Vytvořil jsem velky polygon dole u každého vozu, který jsem pak vhodně dělil pomocí Knife tool. Uvnitř jsem extrudoval jednotlivé hrany a vrcholy, které jsem ve vhodných místech spojil z vnějšími stěnami tramvaje. Musel jsem stejně dávat pozor na to, aby mesh zůstávala správná, jinak by mi to všechno pokazil Subdiv Surf.
+
+image::14.png[1920,1080]
+image::15.png[1920,1080]
+image::16.png[1920,1080]
+image::17.png[1920,1080]
+image::18.png[1920,1080]
+image::19.png[1920,1080]
+image::20.png[1920,1080]
+image::21.png[1920,1080]
+
+Zkopíroval jsem mesh otvoru pro okno a vytvořil z ní další objekt,  který se stal oknem. Z dodržováním stejných principů jak minulé jsem vymodeloval okna a dveře. Umístil jsem je na vhodná místa. Taky jsem vymodeloval a přidával některé detaily exteriéru tramvaje, jako jsou třeba červený pruh a dvířky na bočních stranách vozů.
+
+image::22.png[1920,1080]
+image::23.png[1920,1080]
+image::24.png[1920,1080]
+image::25.png[1920,1080]
+image::26.png[1920,1080]
+image::27.png[1920,1080]
+image::28.png[1920,1080]
+image::29.png[1920,1080]
+image::30.png[1920,1080]
+image::31.png[1920,1080]
+image::32.png[1920,1080]
+image::33.png[1920,1080]
+image::34.png[1920,1080]
+image::35.png[1920,1080]
+image::36.png[1920,1080]
+
+Modelovani harmoniky nebylo těžké, vystačil jsem pak s použitím Mirror modifikátoru.
+
+image::37.png[1920,1080]
+image::38.png[1920,1080]
+
+Následovaly prace z modelování dalších detailů, jako jsou třeba jednotlivé žárovky nebo led panel a lampy uvnitř vozu. Přidal jsem žluté lampičky vedle dveří a tlačítka pro otevírání. Držadla jsem dělal z low poly válců. Aby v rámci jednoho vozu ty držadla vypadali stejně, jsem je duplikoval pomoci Alt-D, čímž jsem vytvářel linkované kopie objektů. Sedačku jsem vymodeloval z krychle, kterou jsem postupně extrudoval v různých částech. Aby je bylo více najednou jsem přidal Array modifikátor. Umístil jsem je v interiéru tramvaje.
+
+image::39.png[1920,1080]
+image::40.png[1920,1080]
+image::41.png[1920,1080]
+image::42.png[1920,1080]
+image::43.png[1920,1080]
+image::44.png[1920,1080]
+image::45.png[1920,1080]
+image::46.png[1920,1080]
+
+Materiály jsem přidával tak, že jsem vybíral určitě části meshe objektů a dělal Asign materiálu právě pro tyto části meshe. Většinou to byly Principled Shadery, Emission Shadery a Glass shader. Pro exteriér jsem upravoval shadery tak, aby vydaly jako kovy. Takže jsem nastavil Glossy a Diffuse složky tak, aby ten materiál byl lesklý. Přidal jsem texturu kovů, kterou jsem pomocí Texture mapping správně narotoval. 
+
+image::47.png[1920,1080]
+image::48.png[1920,1080]
+image::49.png[1920,1080]
+image::50.png[1920,1080]
+
+Držadla jsou kovový, takže jsem měl Glossy a Diffuse složku správně nastavenou pomocí vhodných map. Taky jsem přidal node normálové mapy.
+
+image::51.png[1920,1080]
+
+Na konci jsem přidal svítící cedulky BI-MGA, které byly udělány z low poly koulí. Vytvořil jsem jednu kouli a použil Array modifikátor.
+
+image::52.png[1920,1080]
+image::53.png[1920,1080]
+
+Materiál sedaček je Diffuse typu, do kterého jsem přidal normálovou mapu z malou sílou a zvolil žlutou barvu, aby ve výsledných renderech "možná" bylo vidět, že sedačky nejsou úplně hladké.
+
+image::54.png[1920,1080]
+
+Podlaha má texturu betonu, kterou skoro není vidět. Zvolil jsem beton, protože může vypadat skoro jako podlaha v reálných tramvajích, pokud jsou také správně nastaveny Glossy a Diffuse složky.
+
+image::55.png[1920,1080]
+
+Žárovky mají Emission shader, který má vždy nastavenou barvu svícení.
+
+Do prostředí jsem přidával  2 různé enviromentální textury pro noční a denní rendery. Výsledné rendery jsem zvolil mít bez pozadí, jenom samotnou tramvaj a pozadí. U renderu jsem zapnul transparent film, změnil color managment na Filmic.
+
+
+
+
+
+:imagesdir: ./
+=== Výsledek
+image::mga3_fin.jpg[1920,1080]

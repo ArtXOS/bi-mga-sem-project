@@ -1,0 +1,5 @@
+== Bitmap
+** 1. image
+xref:bitmap/1_img/dokumentace1.adoc#[]
+** 2. image
+xref:bitmap/2_img/dokumentace2.adoc#[]

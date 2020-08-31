@@ -1,0 +1,7 @@
+== Vector
+** Automatic vector
+xref:vektor/auto/dokumentace1.adoc#[]
+** Vektorizace obtahem
+xref:vektor/obtah/dokumentace2.adoc#[]
+** Overlay vector
+xref:vektor/prekryv/dokumentace3.adoc#[]

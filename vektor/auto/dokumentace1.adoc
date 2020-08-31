@@ -1,0 +1,27 @@
+= Auto vector
+
+:imagesdir: ./
+
+=== Původní obrázek tramvaje
+image::auto_vektor_src.jpg[]
+
+`Práce jsem vykonával ve **Illustratoru**`
+
+Na začátku jsem vybral oříznutou tramvaj z bitmap úkolu a importoval ji do pracovního prostředí v Illustratoru (určitě jsem předem vypnul všechny modifikátory, které dříve měli vliv na vrstvu tramvaje).
+
+image::postup1.png[1000,700]
+
+Potom jsem v záložce Object našel "Image Trace" -> Make.
+
+image::postup2.png[1000,700]
+
+Potom následoval výběr toho, jakým způsobem bych chtěl vektorizovat svůj obrázek. Zvolil jsem "6 colors", protože výsledek vypadal nejdéle ze všech ostatních možnosti.
+
+image::postup3.png[1000,700]
+
+Zmáčkl jsem tlačítko Expand a na výstupu jsem dostal Vrstvu ve které se nacházeli vytvořene křivky "Path". Exportoval jsem výsledek do png a svg formátu.
+
+image::postup4.png[1000,700]
+
+=== Výsledek
+image::auto_vektor.png[1280,720]

@@ -1,0 +1,41 @@
+= Vektorizace překryvem
+
+:imagesdir: ./
+
+=== Původní obrázek tramvaje
+image::prekryv_vektor_src.jpg[]
+
+`Práce jsem vykonával ve **Illustratoru**`
+
+Zvolil jsem jako podklad obrázek, který jsem dělal pro první úlohu. 
+
+image::postup1.png[1000,700]
+
+Pro tvrobu těch jednoduchých geometrických tvarů jsem použil nástroj "Curvature tool", kterým jsem se snažil dublikovat určité části tramvaje, jako třeba livrej nebo malé žárovky ve přední části. 
+
+image::postup2.png[1000,700]
+image::postup3.png[1000,700]
+
+Každý vytvořený tvář měl svou barvu a dodatečně jsem vypnul zobrazování hran. Ve vysledku jsem dostal několik vrstev, které obsahovaly tyto tvary. Vrstvy reprezentují jednotlivé části tramvaje. 
+
+image::postup4.png[1000,700]
+image::postup5.png[1000,700]
+
+Stejným způsobem jsem postupoval, až jsem dodělal všechny součásti tramvaje. 
+
+image::postup6.png[1000,700]
+image::postup7.png[1000,700]
+
+Na konci jsem přidal okna a "stiny" od okolního prostředí.
+
+image::postup8.png[1000,700]
+image::postup9.png[1000,700]
+
+
+Zbývalo mi jenom vytvořit okolí tramvaje - zvolil jsem krajinu. Zelene půdě jsem přidal gradient a na pozadí namaloval mraky.
+
+image::postup10.png[1000,700]
+image::postup11.png[1000,700]
+
+=== Výsledek
+image::prekryv_vektor.png[1280,720]

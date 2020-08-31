@@ -1,0 +1,36 @@
+= Vektorizace obtahem
+
+:imagesdir: ./
+
+=== Původní obrázek tramvaje
+image::obtah_vektor_src.jpg[]
+
+`Práce jsem vykonával ve **Illustratoru**`
+
+Jako podklad pro vektorizaci obtahem jsem zvolil fotku, kterou jsem využíval během 1 úkolu. 
+
+image::postup1.png[1000,700]
+
+Použil jsem nastroj "Curvature Tool". 
+
+image::postup2.png[1000,700]
+
+Mel jsem zapnuté zobrazování hran. 
+
+image::postup3.png[1000,700]
+
+Obtahoval jsem jednotlivé části tramvaje a místa, kde se měnily barvy. 
+
+image::postup4.png[1000,700]
+image::postup5.png[1000,700]
+
+Ve výsledku jsem měl hotovou siluetu tramvaje. 
+
+image::postup7.png[1000,700]
+
+Zvolil jsem černou barvu hran.
+
+image::postup6.png[1000,700]
+
+=== Výsledek
+image::obtah_vektor.png[1280,720]

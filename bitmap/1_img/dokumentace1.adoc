@@ -1,0 +1,70 @@
+= Flying tram
+
+:imagesdir: ./
+
+=== Původní obrázek tramvaje
+image::src_tram.jpg[]
+NOTE: **Zdroj**: https://www.union-news.co.uk/unite-halts-edinburgh-trams-strike/
+
+=== Moje postava
+image::src_me.jpg[]
+
+=== Vyfocené pozadí
+image::src_bckgr.jpg[]
+
+Od začátku jsem se snažil vyfotit pozadí a sebe takovým způsobem, aby se fotky nejvíce hodily k obrázku tramvaje, který jsem našel na internetu. A to spočívalo v dodržování perspektivy, stínů a zářivosti okolního světla. Nejtěžší bylo najít okamžik, abych také nezachytil kolemjdoucí cizí lidé.
+
+`Práce z úprav a retuše obrázku jsem vykonával ve **Photoshopu**`
+
+Zaprvé jsem vložil do pracovního prostředí obrázek pozadí. +
+
+image::postup1.png[1000,700]
+
+Druhým krokem bylo vložení obrázku tramvaje. Naschvál jsem předem ještě jednou vyfotil pozadí tak, aby tam byli lidé, abych to pak použil jako referenci pro správný scaling tramvaje a sebe. Tramvaj jsem ořizl pomocí transparency masky. Kraje dopravního prostředku, které se nacházejí ve předu, jsem udělal ostřejšími, a ty vzadu - rozmazanými. Taky jsem smazal pomocí healing tool všechno, co by ukazovalo na to, že tramvaj je z Edinburku.
+
+image::postup2.png[1000,700]
+
+Třetí krokem bylo přidání svoje fotky do sceny. Jsem se ořizl stejným způsobem jako i tramvaj - pomocí transparency masky.
+
+image::postup3.png[1000,700]
+
+Pak sledovaly úpravy samotné scény. Přidal jsem červené svícení a stín pod tramvají. Tohle jsem udělal pomocí vrstvy, která je mezi pozadím a tramvají, nastavil jsem průhlednost na ~25%. Napadlo mě, že by taky bylo vhodné, kdyby se budovy kampusu taky svítily tím modrým světlem, aby byl pocit toho budoucna v té scéně.
+
+image::postup4.png[1000,700]
+image::postup5.png[1000,700]
+
+Vzhledem k tomu, že původní fotka tramvaje byla vyfocena ve světlém prostředí a já jsem dělal svou scénu "tmavou", rozhodl jsem se přidat záření žárovek tramvaje - světlá a červená. Tohle jsem udělal pomocí vrstvy, která je nad tramvají, je průhlednější a má nastavený efekt outer glow. Ty žárovky svítí dopředu, takže jsem upravil pozadí tak, aby byl vidět vliv žárovek na půdu ( + 1 skoro průhledná vrstva, která obsahuje bílou a červenou barvu).
+
+image::postup6.png[1000,700]
+
+Jelikož to svícení pod tramvají musí mít vliv i na moji postavu, byla přidána skoro průhledná vrstva s červenou barvou, která má vliv jenom na vrstvu se mnou ( je vidět, že moje postava a boty mají červený odstín).
+
+image::postup7.png[1000,700]
+
+Tlačítku, které mačkám, jsem přidal zelený outer glow, abych zdůraznil, že je aktivní.
+
+image::postup8.png[1000,700]
+
+2 vliv na prostředí mé tramvaje je outline zabitého člověka. Tím jsem chtěl říct že se i s časem zvyky obyvatel města nemění a že jsou stalé ohrožení svou nepozorností před tramvajemi. Outline toho člověka jsem vzal z otevřených zdrojů. Jednoduše jsem ho přidal do scény - upravil jsem perspektivu pomocí transformace a nastavil blend mode na overlay.
+
+image::postup9.png[1000,700]
+ 
+V zadání bylo uvedeno za úkol úprava nebo přidání cedulky na dopravním prostředku. Zvolil jsem informační panel na tramvají jako vhodný výběr. Napsal jsem místo cílové zastávky "BI-MGA". Použil jsem text blok, barvu textu jsem udělal oranžovou a blend mode nastavil na difference. 
+
+image::postup10.png[1000,700]
+
+Posledními kroky byly úpravy barev celé scény. Chtěl jsem upravit barvy pozadí a sebe tak, aby černé, bílé a šedé barvy měly stejné barevné odstíny jako u tramvaje. Tohle jsem udělal pomocí selective colour úprav. Potom mi zbylo si jenom zahrát s exposure, křivkamí, hue a saturation v colour managementu.
+
+image::postup11.png[1000,700]
+
+Přidání podpisu nepotřebuje důkladní popis - text block a vhodný font.
+
+image::postup12.png[1000,700]
+
+Nad tímto obrázkem jsem strávil přibližně 7 hodin čistého času, kvůli tomu, že jsem často měnil různé součástky scény. Zkoušel jsem různé postupy a nápady. 
+
+=== Výsledek
+image::../../bitmap.jpg[]
+
+=== 8k - bitmap_8k.jpg
+image::bitmap_8k.jpg[]

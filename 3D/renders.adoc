@@ -1,0 +1,24 @@
+= Flying tram
+
+:imagesdir: ./renders/
+
+== Renders
+
+== Exterior
+
+image::front_view.png[1420,580]
+image::front_view_night.png[1420,580]
+image::side_view.png[9600,1080]
+image::close_front.png[1420,580]
+image::upper_view.png[1420,580]
+image::upper_view_night.png[1420,580]
+
+== Interior 
+
+image::coridor.png[1420,580]
+image::coridor2.png[1420,580]
+image::inside_view.png[1420,580]
+image::mga_board.png[1420,580]
+
+
+

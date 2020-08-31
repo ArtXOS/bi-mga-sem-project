@@ -1,0 +1,49 @@
+= Flying tram
+
+:imagesdir: ./
+
+=== Původní obrázek tramvaje
+image::src_tram.jpg[]
+NOTE: **Zdroj**: https://i2.wp.com/www.theedinburghreporter.co.uk/wp-content/uploads/2015/09/TER-Tram-on-Princes-Street-1.jpg
+
+=== Moje postava
+image::src_me.jpg[]
+
+=== Vyfocené pozadí
+image::src_bckgr.jpg[]
+
+Od začátku jsem se snažil vyfotit pozadí a sebe takovým způsobem, aby se fotky nejvíce hodily k obrázku tramvaje, který jsem našel na internetu. A to spočívalo v dodržování perspektivy, stínů a zářivosti okolního světla. Nejtěžší bylo najít okamžik, abych také nezachytil kolemjdoucí cizí lidé.
+
+`Práce z úprav a retuše obrázku jsem vykonával ve **Photoshopu**`
+
+Zaprvé jsem vložil do pracovního prostředí obrázek pozadí. 
+
+image::postup1.png[1000,700]
+
+Druhým krokem bylo vložení obrázku tramvaje. Naschvál jsem předem ještě jednou vyfotil pozadí tak, aby tam byli lidé, abych to pak použil jako referenci pro správný scaling tramvaje a sebe. Tramvaj jsem ořizl pomocí transparency masky. Na původním obrázku tramvaj byla v pohybu, proto jsem ani nemusel nic upravovat, abych dosáhl dojem pochybu pomocí motion blur. Tak jsem ořizl okno vpravo od řidiče aby bylo vidět pozadí (FSv). Smazal jsem pomocí healing tool všechno, co by ukazovalo na to, že tramvaj je z Edinburku.
+
+image::postup2.png[1000,700]
+
+Třetím krokem bylo přidání svoje fotky do sceny. Jsem se ořizl stejným způsobem jako i tramvaj - pomocí transparency masky. Aby to vypadalo tak, že se jakoby nacházím uvnitř tramvaje, nastavil jsem blend mode pro vrstvu s sebou na screen. Taky jsem se udělal tmavší pomocí exposure úprav, protože původní foto bylo příliš světlé.
+
+image::postup3.png[1000,700]
+
+Posledními kroky byly úpravy barev celé scény. Chtěl jsem upravit barvy pozadí a sebe tak, aby černé, bílé a šedé barvy měly stejné barevné odstíny jako u tramvaje. Tohle jsem udělal pomocí selective colour úprav. Potom mi zbylo si jenom zahrát s exposure, křivkamí, hue a saturation v colour managementu.
+
+image::postup4.png[1000,700]
+
+Vzhledem na to, že jsem se zapomněl na to, že moje tramvaj je lítající, taky jsem přidal stín pod tramvají pomocí dodatečné vrsty mezí pozadím a tramvají. Nastavil jsem průhlednost na ~20 procent a samotný stín jsem vytvořil štětcem s černou barvou.
+
+image::postup5.png[1000,700]
+
+Přidání podpisu nepotřebuje důkladní popis - text block a vhodný font.
+
+image::postup6.png[1000,700]
+
+Nad tímto obrázkem jsem strávil přibližně 1 hodinu čistého času, kvůli tomu, že jsem často měnil různé součástky scény. Zkoušel jsem různé postupy a nápady. 
+
+=== Výsledek
+image::bitmap2.jpg[]
+
+=== 8k - bitmap2_8k.jpg
+image::bitmap2_8k.jpg[]
